@@ -1,8 +1,8 @@
 # Privacy Policy for Timetable Pro
 
-**Last Updated: May 29, 2026**
+**Last Updated:** May 29, 2026
 
-Timetable Pro ("we", "our", or "us") respects your privacy and is committed to protecting your personal information. This Privacy Policy explains how we collect, use, store, and protect your information when you use the Timetable Pro mobile application.
+Timetable Pro ("we", "our", or "the App") respects your privacy and is committed to protecting your personal information. This Privacy Policy explains how we collect, use, store, and safeguard your information when you use the Timetable Pro mobile application.
 
 By using Timetable Pro, you agree to the practices described in this Privacy Policy.
 
@@ -10,77 +10,76 @@ By using Timetable Pro, you agree to the practices described in this Privacy Pol
 
 # 1. Information We Collect
 
-## A. Information You Provide
+## A. Personal Information
 
-When using Timetable Pro, we may collect the following information:
+When you sign in using Google Authentication, we may collect:
 
-### Account Information
-
-* Name
 * Email address
-* Profile picture
+* User ID provided by Firebase Authentication
+* Profile picture (if available through Google Sign-In)
 
-This information may be collected through:
-
-* Firebase Authentication
-* Google Sign-In
-
-### User Content
-
-We collect and store content you create within the app, including:
-
-* Timetables
-* Schedules
-* Notes
-* Uploaded files
-* Class reminders
-* User preferences
-
-This data is securely stored using Firebase Cloud Firestore and Firebase Storage.
+This information is used to create and manage your account and sync your data securely across devices.
 
 ---
 
-## B. Automatically Collected Information
+## B. User Content
 
-### Device Information
+We collect and store content you create within the app, including:
 
-We may automatically collect limited device-related information, including:
+* Timetables and schedules
+* Subjects and study plans
+* Notes and reminders
+* Assignments and syllabus progress
+* Uploaded files such as PDFs and images
+* User preferences and app settings
+
+This information is securely stored using Firebase Cloud Firestore and Firebase Storage.
+
+---
+
+## C. Purchase Information
+
+If you purchase a premium subscription or digital product:
+
+* Purchase status and subscription details may be processed through Google Play Billing and RevenueCat.
+* We do not collect or store your payment card or banking information.
+
+All payments are securely handled by Google Play.
+
+---
+
+## D. Usage & Diagnostics Information
+
+We may automatically collect limited technical and diagnostic information, including:
 
 * Device model
 * Operating system version
 * App version
-* Device identifiers
-
-### Usage Information
-
-We may collect information about how you use the app, including:
-
-* Features accessed
-* App interactions
-* Session duration
 * Crash reports and diagnostics
+* Feature usage and app interactions
+
+This data helps us improve app performance, stability, and user experience.
 
 ---
 
 # 2. How We Use Your Information
 
-We use the collected information to:
+We use collected information to:
 
 * Provide and maintain app functionality
-* Sync your data across devices
-* Save and restore your schedules
-* Send reminders and notifications
-* Improve app performance and user experience
-* Provide customer support
-* Display advertisements
+* Sync your timetable data across devices
+* Store and manage your study resources
 * Manage premium subscriptions and purchases
-* Prevent abuse and unauthorized access
+* Improve app performance and reliability
+* Provide customer support
+* Display advertisements in the free version
+* Prevent abuse, fraud, and unauthorized access
 
 ---
 
 # 3. Third-Party Services
 
-Timetable Pro uses trusted third-party services that may collect information according to their own privacy policies.
+Timetable Pro uses trusted third-party services that may collect or process information according to their own privacy policies.
 
 ## Firebase (Google)
 
@@ -92,49 +91,59 @@ Used for:
 * Analytics
 * Crash reporting
 
-Firebase services may process data on servers located in various countries.
+Firebase services may process data on servers located in different countries.
+
+---
 
 ## Google Play Services
 
 Used for core Android functionality and app distribution.
 
-## AdMob (Google)
+---
 
-Used to display advertisements within the app. AdMob may collect device identifiers and usage data to provide personalized or non-personalized ads.
+## Google Mobile Ads (AdMob)
+
+Used to display advertisements within the app. AdMob may collect device identifiers and usage information to provide personalized or non-personalized advertisements.
+
+---
 
 ## RevenueCat
 
-Used to manage in-app purchases, subscriptions, and premium access.
+Used to manage premium subscriptions, purchases, and entitlement verification.
 
 RevenueCat does not process payments directly. Payments are securely handled through Google Play Billing.
+
+---
 
 ## Google Sign-In
 
 Used for secure account authentication and login.
 
-We encourage users to review the privacy policies of these third-party providers.
-
 ---
 
-# 4. Data Storage and Security
+# 4. Data Storage & Security
 
 Your information is stored securely using Firebase infrastructure and other trusted cloud services.
 
-We implement reasonable security measures to protect your information from unauthorized access, loss, misuse, or disclosure. However, no internet-based service can guarantee absolute security.
+We use industry-standard security practices designed to protect your information from unauthorized access, disclosure, misuse, or loss. However, no method of internet transmission or electronic storage is completely secure.
 
 ---
 
-# 5. Your Rights and Choices
+# 5. Data Deletion & User Rights
 
 You have the right to:
 
 * Access your stored data
 * Modify your information
-* Delete schedules and uploaded content
-* Request account deletion
+* Delete schedules, files, and uploaded content
+* Request account or data deletion
 * Stop using the app at any time
 
-If you request account deletion, we will delete your associated personal data within a reasonable period, unless retention is required for legal or security purposes.
+You may request deletion of your account or associated data by contacting us at:
+
+[networkize01@gmail.com](mailto:networkize01@gmail.com)
+
+Upon approved deletion requests, we initiate removal of associated Firestore records, uploaded files, and authentication data where applicable.
 
 ---
 
@@ -150,11 +159,11 @@ Parents or guardians who believe their child has provided personal information m
 
 ---
 
-# 7. Advertisements and Purchases
+# 7. Advertisements & Purchases
 
-The app may display advertisements through AdMob.
+The app may display advertisements through Google AdMob.
 
-The app may also offer optional premium subscriptions or purchases managed through RevenueCat and Google Play Billing.
+The app may also offer optional premium subscriptions or digital purchases managed through RevenueCat and Google Play Billing.
 
 All payments are securely processed by Google Play. We do not directly collect or store payment card information.
 
@@ -164,20 +173,12 @@ All payments are securely processed by Google Play. We do not directly collect o
 
 We may update this Privacy Policy periodically.
 
-Any changes will be posted within the app or on the updated Privacy Policy page. The "Last Updated" date will also be revised accordingly.
-
-Continued use of the app after changes become effective constitutes acceptance of the updated policy.
+Any changes will be reflected on this page with an updated "Last Updated" date. Continued use of the app after changes become effective constitutes acceptance of the updated policy.
 
 ---
 
 # 9. Contact Us
 
-If you have any questions, feedback, or privacy-related concerns, you may contact us at:
+If you have any questions, feedback, or privacy-related concerns, please contact us at:
 
 [networkize01@gmail.com](mailto:networkize01@gmail.com)
-
----
-
-# 10. Consent
-
-By using Timetable Pro, you consent to the collection and use of information as described in this Privacy Policy.
